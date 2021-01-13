@@ -1,0 +1,19 @@
+environment: development
+
+http:
+  host: localhost
+  port: 4000
+
+auth:
+  expiresin: 365d
+  secret-key: your_secret_key
+
+database:
+  type: postgres
+  host: localhost
+  port: 5432
+  username: postgres
+  password: your_password
+  dbname: yourdatabase
+  synchronize: true
+  logging: false
